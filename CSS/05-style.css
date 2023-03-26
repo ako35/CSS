@@ -1,0 +1,29 @@
+*{
+    font-size: 1rem;
+}
+h1{
+    font-size: 2rem;
+    background-color: chocolate;
+    color: black;
+}
+p{
+    text-align: justify;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+p.highlight{
+    text-align: center;
+    color: blue;
+    text-indent: 2rem;
+}
+p.center{
+    color: black;
+}
+#p1{
+    color: red;
+}
+p span.span1{
+    background-color: black;
+    color: white;
+}

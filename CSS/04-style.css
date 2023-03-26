@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+p{
+    text-indent: 50px;
+}
+p mark{
+    color: red;
+}
+h1{
+    background-color: chocolate;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+}
