@@ -1,0 +1,11 @@
+nav.main-menu{
+    background-color: lightgray;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.active{
+    background-color: gray;
+    color: white;
+}
+

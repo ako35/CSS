@@ -5,12 +5,12 @@ h1{
     font-size: 2rem;
     background-color: chocolate;
     color: black;
-}
-p{
-    text-align: justify;
     border-width: 5px;
     border-color: black;
     border-style: solid;
+}
+p{
+    text-align: justify;
 }
 p.highlight{
     text-align: center;
