@@ -1,0 +1,36 @@
+li::before{
+    content: "	\25c6";
+    color: blue;
+    border-style:unset;
+    border-width: 1px;
+}
+ul{
+    list-style: none;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 8px;
+    line-height: 3rem;
+    font-size: 2rem;
+    background-color: lightgray;
+    width: 15rem;
+    display: inline-block;
+}
+ul a{
+    text-decoration: none;
+    font-weight: 400;
+}
+ul a li{
+    padding: 8px;
+    color: black;
+    text-align: left;
+}
+ul li:hover{
+    color: white;
+    background-color: gray;
+}
+a:visited{
+    color: black;
+}
+a:link{
+    color: black;
+}

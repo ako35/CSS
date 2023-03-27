@@ -10,12 +10,17 @@ a{
 }
 li{
     list-style: none;
+    line-height: 2rem;
 }
 ul{
     display: inline-block;
-    padding: 8px;
     background-color: aquamarine;
+    margin: 0;
+    padding: 0;
 }
 h1:hover{
     color: red;
+}
+li:hover{
+    background-color: darkgrey;
 }
