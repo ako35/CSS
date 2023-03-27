@@ -1,0 +1,67 @@
+header{
+    background-color: gray;
+    text-align: center;
+    padding: 12px;
+}
+header a{
+    color: aquamarine;
+    padding: 15px;
+    margin: 10px;
+}
+header a:hover{
+    color: white;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header img{
+    width: 15px;
+    height: 17px;
+}
+img.apple{
+    width: 30px;
+    height: 34px;
+}
+main section{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 16px;
+}
+main section h2{
+    font-size: 3.5rem;
+    margin-bottom: -25px;
+    color: white;
+}
+main section.iphone14 h2{
+    color: black;
+}
+main section p{
+    font-size: 2rem;
+    color: rgb(65, 65, 65);
+}
+p.st{
+    color: darkgrey;
+    font-size: 1.6rem;
+}
+main a{
+    font-size: 1.6rem;
+    color: blue;
+}
+p.series{
+    font-size: 1.6rem;
+    color: red;
+    letter-spacing: 0.3rem;
+}
+section{
+    background-color: black;
+}
+section.iphone14{
+    background-color: white;
+}
+main section.watch h2 img{
+    width: 36px;
+    height: auto;
+}
