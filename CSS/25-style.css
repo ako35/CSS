@@ -1,0 +1,50 @@
+:root{
+    --color1:rgb(250, 50, 50);
+    --color2:rgb(62, 62, 248);
+    --color3:rgb(202, 185, 185);
+    --color4:rgb(129, 2, 2);
+    --color5:rgb(22, 1, 1);
+}
+
+.menu{
+    background-color: var(--color1);
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    color: var(--color3);
+}
+
+.menu li::after{
+    content: "|";
+    color: var(--color4);
+    font-size: larger;
+
+}
+
+.menu li:last-child::after{
+    content: "►";
+    color: var(--color5);
+}
+
+.menu li:first-child::before{
+    content: "◄";
+    color: var(--color5);
+}
+
+.menu li a:hover{
+    color: white;
+}

@@ -1,0 +1,29 @@
+.menu li{
+    color: red;
+}
+
+.menu > ul > li{
+    color: green;
+}
+
+.menu ul ul > li{
+    color: chartreuse;
+}
+
+.menu ul ul li:last-child{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.menu + p {
+    font-size: 24px;
+}
+
+.menu ~ p{
+    color: aqua;
+}
+
+.menu > ul > li:nth-child(3) ~ li{
+    color: blue;
+}
