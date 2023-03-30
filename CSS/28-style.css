@@ -1,0 +1,16 @@
+.menu-item i{
+    color: red;
+    font-size: 2rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.menu li::before{
+    content: "\f101";
+    font:var(--fa-font-solid);
+    font-size: 0.7rem;
+    margin-right: 10px;
+    color: red;
+}
