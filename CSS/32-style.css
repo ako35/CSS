@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 50vh;
+}
+
+.container div:nth-child(1){
+    background-color: black;
+    flex: 1 0 200px;
+}
+
+.container div:nth-child(2){
+    background-color:blue;
+
+}
+
+.container div:nth-child(3){
+    background-color:blueviolet;
+
+}
+
+.container div:nth-child(4){
+    background-color:brown;
+}
+
+.container div:nth-child(5){
+    background-color:chartreuse;
+}
