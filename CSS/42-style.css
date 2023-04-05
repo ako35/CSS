@@ -1,0 +1,13 @@
+.menu{
+    background-color: aqua;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+}
+
+.price-list thead{
+    background-color: burlywood;
+    position: sticky;
+    top: 50px;
+}
